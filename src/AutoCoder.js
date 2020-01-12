@@ -11,6 +11,7 @@ class AutoCoder extends Component{
 
   render(){
     return <div id='codemirror-wrapper'>
+      <style dangerouslySetInnerHTML={{__html: this.state.css}}/>
       <CodeMirror
         value={this.state.css}
         options={{
