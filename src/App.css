@@ -38,3 +38,11 @@
 }
 
 .CodeMirror { text-align: left!important; }
+
+#codemirror-wrapper{
+  top: 0vh;
+  left: 0vw;
+}
+* {
+  transition: all 1.5s
+}
